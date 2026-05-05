@@ -58,7 +58,7 @@ voi_drill_package/
 │   ├── case1_vertical_analysis.py
 │   ├── case2_cone.py
 │   └── case3_random.py
-├── voi_drill/                    # core package
+├── voi_drill/                        # core package
 │   ├── __init__.py
 │   ├── utilities.py
 │   ├── trajectory.py
