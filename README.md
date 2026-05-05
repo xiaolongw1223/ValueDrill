@@ -14,7 +14,7 @@ Given an ensemble of prior geological model realizations, this package computes 
 | Module | Contents |
 |---|---|
 | `voi_drill/utilities.py` | Value function and utility functions (linear, exponential) |
-| `voi_drill/trajectory.py` | 2-D drillhole trajectory simulation |
+| `voi_drill/trajectory.py` | 2D drillhole trajectory simulation |
 | `voi_drill/metrics.py` | `VOI` class and `grade_thickness` function |
 
 ---
