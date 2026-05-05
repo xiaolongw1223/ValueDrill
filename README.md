@@ -1,3 +1,4 @@
+<img src="docs/images/mineralx_logo.png" width=70% align="middle">
 # ValueDrill
 Smart Drilling Design for Mineral Exploration
 
