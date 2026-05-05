@@ -49,9 +49,9 @@ The example scripts run without installation — they add the package to `sys.pa
 ```
 voi_drill_package/
 ├── inputs/                           # input data (place files here before running)
-│   ├── drillhole_2d.txt              #   existing drillhole observations
-│   ├── true_model_binary_2d.txt      #   binary true model (for reference)
-│   └── prior_model_geometry.txt      #   prior model ensemble (n_models × n_cells)
+│   ├── drillhole_2d.txt              # existing drillhole observations
+│   ├── true_model_binary_2d.txt      # binary true model (for reference)
+│   └── prior_model_geometry.txt      # prior model ensemble (n_models × n_cells)
 ├── outputs/                          # all output figures saved here (auto-created)
 ├── examples/                         # runnable example scripts
 │   ├── case1_vertical.py
