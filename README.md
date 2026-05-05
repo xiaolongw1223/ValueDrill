@@ -1,6 +1,7 @@
 <img src="inputs/logo.png" width=15% align="left">
 
 # ValueDrill
+
 Smart Drilling Design for Mineral Exploration
 
 Python implementation of **Value of Information (VOI)** analysis for candidate drillhole siting in 2D mineral exploration settings.
