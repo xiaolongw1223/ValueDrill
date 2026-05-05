@@ -26,7 +26,7 @@ Given an ensemble of prior geological model realizations, this package computes 
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/voi_drill.git
+git clone https://github.com/xiaolongw1223/voi_drill.git
 cd voi_drill
 pip install -r requirements.txt
 ```
