@@ -51,7 +51,7 @@ The example scripts run without installation — they add the package to `sys.pa
 ## Structure
 
 ```
-voi_drill_package/
+ValueDrill/
 ├── inputs/                           # input data (place files here before running)
 │   ├── drillhole_2d.txt              # existing drillhole observations
 │   ├── true_model_binary_2d.txt      # binary true model (for reference)
