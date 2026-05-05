@@ -1,24 +1,34 @@
-<img src="inputs/logo.png" width=15% align="left">
+<img src="inputs/images/MDRU_logo.png" width=70% align="middle">
 
 # ValueDrill
 
-Smart Drilling Design for Mineral Exploration
-
-Python implementation of **Value of Information (VOI)** analysis for candidate drillhole siting in 2D mineral exploration settings.
+Smart Drilling Decision-making for Mineral Exploration
 
 ---
 
 ## Overview
 
-Given an ensemble of prior geological model realizations, this package computes the VOI for each candidate drillhole — the expected gain in decision quality from drilling that hole before committing to a production decision. An alternative grade-thickness metric is also provided for comparison.
+Drilling is the most cost-intensive component of orebody definition. Conventional drilling campaigns commonly prioritize intersecting mineralization, resulting in highly consistent drill collar locations and orientations. This drilling strategy can minimize the risk of missing ore, but it limits the ability to reduce subsurface uncertainty and resolve the broader geological context. We introduce an information-driven drilling framework that integrates geological knowledge, Bayesian stochastic modeling, and the value of information (VOI). Given an ensemble of prior geological model realizations, this package computes the VOI for each candidate drillhole — the expected gain in decision quality from drilling that hole before committing to an action decision. An alternative grade-thickness metric is also provided for comparison.
 
-**Key components**
+**Authors:**
 
-| Module | Contents |
-|---|---|
-| `voi_drill/utilities.py` | Value function and utility functions (linear, exponential) |
-| `voi_drill/trajectory.py` | 2D drillhole trajectory simulation |
-| `voi_drill/metrics.py` | `VOI` class and `grade_thickness` function |
+Xiaolong Wei (xiaolong.wei@ubc.ca)
+
+Haruna M. Grema (hgrema@eoas.ubc.ca)
+
+Brian A. McNulty (bmcnulty@eoas.ubc.ca)
+
+Lindsey J. Heagy (lheagy@eoas.ubc.ca)
+
+Shaun L.L. Barker (shaun.barker@ubc.ca)
+
+**Acknowledgments:**
+
+[NSERC](https://nserc-crsng.canada.ca/en)
+
+[IMDEX](https://www.imdex.com/)
+
+[Ideon](https://ideon.ai/)
 
 ---
 
@@ -32,18 +42,10 @@ cd voi_drill
 pip install -r requirements.txt
 ```
 
-The example scripts run without installation — they add the package to `sys.path` automatically. To install the package into your environment instead, run `pip install -e .` from inside `voi_drill_package/`.
-
-### Dependencies
-
-| Package | Minimum version |
-|---|---|
-| numpy | 1.21 |
-| scipy | 1.7 |
-| matplotlib | 3.4 |
-| discretize | 0.8 |
+The example scripts run without installation — they add the package to `sys.path` automatically.
 
 ---
+
 
 ## Repository structure
 
