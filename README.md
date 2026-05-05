@@ -9,7 +9,7 @@ Python implementation of **Value of Information (VOI)** analysis for candidate d
 
 ## Overview
 
-Given an ensemble of prior geological model realizations, this package computes the VOI for each candidate drillhole — the expected gain in decision quality from drilling that hole *before* committing to a production decision. An alternative grade-thickness metric is also provided for comparison.
+Given an ensemble of prior geological model realizations, this package computes the VOI for each candidate drillhole — the expected gain in decision quality from drilling that hole before committing to a production decision. An alternative grade-thickness metric is also provided for comparison.
 
 **Key components**
 
