@@ -1,6 +1,7 @@
 <img src="inputs/images/MDRU_logo.png" width=70% align="middle">
 
 # ValueDrill
+**[Overview](#overview) | [Installation](#installation) | [Structure](#structure) | [Usage](#usage) | [Citations](#citations)**
 
 Smart Drilling Decision-making for Mineral Exploration
 
@@ -47,7 +48,7 @@ The example scripts run without installation — they add the package to `sys.pa
 ---
 
 
-## Repository structure
+## Structure
 
 ```
 voi_drill_package/
@@ -134,9 +135,7 @@ voi_calc = VOI(
 )
 ```
 
----
-
-## Reproducing the paper figures
+### Reproducing the paper figures
 
 Place the input data files in `inputs/` then run any script from the `examples/` directory. Figures are saved automatically to `outputs/`.
 
@@ -151,6 +150,13 @@ python case1_vertical.py
 | `case1_vertical_analysis.py` | `fig_case1_vertical_analysis_drillhole_1.png` |
 | `case2_cone.py` | `fig_case2_cone_model_drillhole_trace.png`, `fig_case2_cone_voi.png`, `fig_case2_cone_thickness.png` |
 | `case3_random.py` | `fig_case3_random_model_drillhole_trace.png`, `fig_case3_random_voi_thickness.png` |
+
+---
+
+## Citations
+
+If you are using the package, please cite:
+
 
 ---
 
