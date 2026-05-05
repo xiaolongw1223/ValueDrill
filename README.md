@@ -1,4 +1,5 @@
-<img src="inputs/logo.png" width=70% align="middle">
+<img src="inputs/logo.png" width=15% align="left">
+
 # ValueDrill
 Smart Drilling Design for Mineral Exploration
 
